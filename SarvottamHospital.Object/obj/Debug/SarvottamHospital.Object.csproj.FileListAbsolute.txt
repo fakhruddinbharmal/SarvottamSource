@@ -1,0 +1,9 @@
+D:\MyWorkspace\NETSERVER_V2\dotNET\SarvottamSource\SarvottamHospital.Object\bin\Debug\SarvottamHospital.Object.dll
+D:\MyWorkspace\NETSERVER_V2\dotNET\SarvottamSource\SarvottamHospital.Object\bin\Debug\SarvottamHospital.Object.pdb
+D:\MyWorkspace\NETSERVER_V2\dotNET\SarvottamSource\SarvottamHospital.Object\obj\Debug\SarvottamHospital.Object.dll
+D:\MyWorkspace\NETSERVER_V2\dotNET\SarvottamSource\SarvottamHospital.Object\obj\Debug\SarvottamHospital.Object.pdb
+D:\MyWorkspace\NETSERVER_V2\dotNET\SarvottamSource\SarvottamHospital.Object\obj\Debug\SarvottamHospital.Object.csprojResolveAssemblyReference.cache
+D:\SVNNetServer\SarvottamSource\SarvottamHospital.Object\bin\Debug\SarvottamHospital.Object.dll
+D:\SVNNetServer\SarvottamSource\SarvottamHospital.Object\bin\Debug\SarvottamHospital.Object.pdb
+D:\SVNNetServer\SarvottamSource\SarvottamHospital.Object\obj\Debug\SarvottamHospital.Object.dll
+D:\SVNNetServer\SarvottamSource\SarvottamHospital.Object\obj\Debug\SarvottamHospital.Object.pdb

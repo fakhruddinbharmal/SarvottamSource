@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{915C491C-8C07-499A-AA63-046580364174}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SarvottamHospital.Object</RootNamespace>
+    <AssemblyName>SarvottamHospital.Object</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Appointment.cs" />
+    <Compile Include="AssociateComplain.cs" />
+    <Compile Include="CacheObject.cs" />
+    <Compile Include="ChiefComplain.cs" />
+    <Compile Include="DAL\AppContext.cs" />
+    <Compile Include="DAL\AppDAL.cs" />
+    <Compile Include="DAL\AppDatabase.cs" />
+    <Compile Include="DAL\AppointmentDAL.cs" />
+    <Compile Include="DAL\AppShared.cs" />
+    <Compile Include="DAL\AssociateComplainDAL.cs" />
+    <Compile Include="DAL\ChiefComplainDAL.cs" />
+    <Compile Include="DAL\EntityDAL.cs" />
+    <Compile Include="DAL\FieldDAL.cs" />
+    <Compile Include="DAL\FieldPermissionDAL.cs" />
+    <Compile Include="DAL\HistoryDAL.cs" />
+    <Compile Include="DAL\HistoryProcedureDAL.cs" />
+    <Compile Include="DAL\IPDPatientTreatmentDAL.cs" />
+    <Compile Include="DAL\LabInvestigationDAL.cs" />
+    <Compile Include="DAL\MainInvestigationDAL.cs" />
+    <Compile Include="DAL\MedicineDAL.cs" />
+    <Compile Include="DAL\OPDHistoryProcedureAssociateComplainDAL.cs" />
+    <Compile Include="DAL\OPDHistoryProcedureChiefComplainDAL.cs" />
+    <Compile Include="DAL\OPDHistoryProcedureHistoryDAL.cs" />
+    <Compile Include="DAL\OPDInvestigationProcedureDAL.cs" />
+    <Compile Include="DAL\OPDInvestigationProcedureLabInvestigationDAL.cs" />
+    <Compile Include="DAL\OPDInvestigationProcedureMainInvestigationDAL.cs" />
+    <Compile Include="DAL\OPDPrescriptionDAL.cs" />
+    <Compile Include="DAL\OPDPrescriptionProcedureMedicineDAL.cs" />
+    <Compile Include="DAL\OPDTreatmentDAL.cs" />
+    <Compile Include="DAL\OPDTreatmentProcedureDAL.cs" />
+    <Compile Include="DAL\OPDTreatmentProcedureTreatmentDAL.cs" />
+    <Compile Include="DAL\PatientDAL.cs" />
+    <Compile Include="DAL\PatientProcedureDAL.cs" />
+    <Compile Include="DAL\PermissionDAL.cs" />
+    <Compile Include="DAL\ProcedureDAL.cs" />
+    <Compile Include="DAL\ReferenceDoctorDAL.cs" />
+    <Compile Include="DAL\ReportDAL.cs" />
+    <Compile Include="DAL\RoomDAL.cs" />
+    <Compile Include="DAL\IPDTreatmentDAL.cs" />
+    <Compile Include="DAL\UserDAL.cs" />
+    <Compile Include="DAL\UserRoleDAL.cs" />
+    <Compile Include="DAL\WardDAL.cs" />
+    <Compile Include="Entity.cs" />
+    <Compile Include="Enums.cs" />
+    <Compile Include="Field.cs" />
+    <Compile Include="FieldPermission.cs" />
+    <Compile Include="History.cs" />
+    <Compile Include="HistoryProcedure.cs" />
+    <Compile Include="IPDPatientTreatment.cs" />
+    <Compile Include="LabInvestigation.cs" />
+    <Compile Include="MainInvestigation.cs" />
+    <Compile Include="Medicine.cs" />
+    <Compile Include="Objectbase.cs" />
+    <Compile Include="OPDHistoryProcedureAssociateComplain.cs" />
+    <Compile Include="OPDHistoryProcedureChiefComplain.cs" />
+    <Compile Include="OPDHistoryProcedureHistory.cs" />
+    <Compile Include="OPDInvestigationProcedure.cs" />
+    <Compile Include="OPDInvestigationProcedureLabInvestigation.cs" />
+    <Compile Include="OPDInvestigationProcedureMainInvestigation.cs" />
+    <Compile Include="OPDPrescription.cs" />
+    <Compile Include="OPDPrescriptionProcedureMedicine.cs" />
+    <Compile Include="OPDTreatment.cs" />
+    <Compile Include="OPDTreatmentProcedure.cs" />
+    <Compile Include="OPDTreatmentProcedureTreatment.cs" />
+    <Compile Include="Patient.cs" />
+    <Compile Include="PatientProcedure.cs" />
+    <Compile Include="Permission.cs" />
+    <Compile Include="Procedure.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReferenceDoctor.cs" />
+    <Compile Include="Report.cs" />
+    <Compile Include="Room.cs" />
+    <Compile Include="IPDTreatment.cs" />
+    <Compile Include="User.cs" />
+    <Compile Include="UserRole.cs" />
+    <Compile Include="Ward.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\" />
+    <Folder Include="bin\Release\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
